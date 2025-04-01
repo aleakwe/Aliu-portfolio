@@ -1,0 +1,347 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: rgba(32, 17, 46, 0.651);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+header{
+    width: 90%;
+    max-width: 90%;
+    height: 5vh;
+    border: 0.5px solid #ccc;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px auto;
+    padding: 0 20px;
+    border-radius: 10px;
+}
+header h1{
+    color: #ccc;
+    font-size: 20px;
+    font-weight: 900;
+}
+header ul{
+    display: flex;
+    position: absolute;
+    right: 200px;
+}
+header ul li{
+    margin: 0 30px;
+    list-style-type: none;
+    color: #ccc;
+    font-size: 12px;
+    font-weight: 900;
+    cursor: pointer;
+    transition: 1s;
+}
+header ul a{
+    text-decoration: none;
+}
+header ul li:hover{
+    color: rgba(161, 49, 46, 0.486);
+}
+.hero{
+    width: 90%;
+    height: 90vh;
+    display: flex;
+    margin: 0 auto;
+}
+.hero img{
+    width: 650px;
+    height: 650px;
+    position: absolute;
+    right: 150px;
+    top: 160px;
+}
+.text{
+    background-color: none;
+    height: 400px;
+    margin-top: 60px;
+
+}
+.text h1{
+    font-size: 120px;
+    font-weight: 900;
+    color: rgb(255, 255, 255);
+    text-shadow: 0 0 10px  rgba(167, 27, 73, 0.719);
+}
+.text p{
+    font-size: 20px;
+    font-weight: 900;
+    color: rgb(255, 255, 255);
+    padding-left: 40px;
+}
+.text button{
+    padding: 15px;
+    border: 1px solid  rgb(170, 70, 137);;
+    border-radius: 10px;
+    color: #ccc;
+    background-color: rgba(112, 89, 104, 0.685);
+    margin-left: 50px;
+}
+
+
+
+
+
+
+
+
+h1{
+    color: #fff;
+    padding: 60px 60px;
+}
+.box-x{
+    width: 100%;
+    background-color: none;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 200px;
+}
+
+.x-content{
+    width: 50%;
+    height: 150px;
+    border-radius: 20px;
+    border: 1px solid #ccc;
+    margin: 130px 90px;
+    color: #fff;
+}
+.x2{
+    position: absolute;
+    right: 0;
+    top: 215px;
+}
+.x-content{
+    padding: 15px;
+}
+
+
+
+.skill-box{
+    width: 100%;
+    height: 60vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    position: absolute;
+    top: 160px;
+}
+.skill{
+    width: 35%;
+    height: 100%;
+    background-color: #fff;
+    box-shadow: 0 0 10px;
+    margin: 20px 20px;
+    text-align: center;
+    padding: 20px;
+    font-family: monospace;
+}
+.skill h1{
+    color: #333;
+    font-size: 30px;
+    font-weight: 900;
+}
+.skill h6{
+    font-size: 10px;
+    font-weight: 800;
+}
+.s1{
+    background-color: #cf8c4056;
+}
+.s2{
+    background-color: #999b1a5e;
+}
+.s3{
+    background-color: #4ccf405e;
+}
+
+
+
+.cont-box{
+    width: 100%;
+    display: flex;
+    margin-top: 190px;
+}
+.cont{
+    width: 50%;
+    height: 50vh;
+    border-right: 1px solid #797878;
+    text-align: center;
+    color: #fff;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 30px;
+}
+.cont input{
+    width: 85%;
+    height: 5vh;
+    display: flex;
+    margin: 0 auto;
+    border-radius: 20px;
+    box-shadow: 0 0 10px;
+    background-color: #ffffff44;
+    border: 1px solid #ce2db8;
+    padding-left: 30px;
+    font-size: 20px;
+}
+input[type="submit"]{
+    background-color: #333;
+    width: 90%;
+    color: #fff;
+}
+
+
+
+@media (max-width: 800px) {
+    header{
+        width: 90%;
+        max-width: 90%;
+        height: 5vh;
+        border: 0.5px solid #ccc;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin: 20px auto;
+        border-radius: 10px;
+    }
+    header h1{
+        color: #ccc;
+        font-size: 20px;
+        font-weight: 900;
+        margin-left: -40px;
+    }
+    header ul{
+        display: flex;
+        position: absolute;
+        right: 20px;
+    }
+    header ul li{
+        margin: 0 10px;
+        list-style-type: none;
+        color: #ccc;
+        font-size: 9px;
+        font-weight: 900;
+        cursor: pointer;
+        transition: 1s;
+    }
+    header ul a{
+        text-decoration: none;
+    }
+    header ul li:hover{
+        color: rgba(161, 49, 46, 0.486);
+    }
+    .lang{
+        width: 70px;
+        height: 35px;
+        border: 1px solid #ccc;
+        border-radius: 50px;
+    }
+    .hero{
+        width: 90%;
+        height: 90vh;
+        display: flex;
+        margin: 0 auto;
+        justify-content: center;
+        background-color: none;
+    }
+    
+    .text h1{
+        font-size: 50px;
+        font-weight: 900;
+        color: rgb(255, 255, 255);
+        text-shadow: 0 0 10px  rgba(167, 27, 73, 0.719);
+        text-align: left;
+    }
+    .text p{
+        font-size: 12px;
+        font-weight: 900;
+        color: rgb(255, 255, 255);
+        text-align: left;
+    }
+    .text button{
+        padding: 15px;
+        border: 1px solid  rgb(170, 70, 137);;
+        border-radius: 10px;
+        color: #ccc;
+        background-color: rgba(112, 89, 104, 0.685);
+    }
+    .cont-box{
+        width: 100%;
+        height: 50vh;
+        display: flex;
+        flex-direction: column;
+        margin-top: 150px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .cont{
+        width: 50%;
+        height: 50vh;
+        border-right: none;
+        text-align: center;
+        color: #fff;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        font-size: 20px;
+    }
+    .skill-box{
+        width: 100%;
+        height: 60vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        position: absolute;
+        top: 160px;
+    }
+    .skill{
+        width: 80%;
+        height: 100%;
+        box-shadow: 0 0 10px;
+        margin: 20px auto;
+        text-align: center;
+        padding: 20px;
+        font-family: monospace;
+    }
+    .box-x{
+        width: 100%;
+        height: 70vh;
+        background-color: none;
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        top: 100px;
+    }
+    
+    .x-content{
+        width: 50%;
+        height: 190px;
+        border-radius: 20px;
+        border: 1px solid #ccc;
+        margin: 150px 90px;
+        color: #fff;
+    }
+    .x2{
+        position: absolute;
+        right: 0;
+        top: 255px;
+    }
+    .x-content{
+        padding: 15px;
+    }
+    
+
+    .hero img{
+        display: none;
+    }
+}
+
+@media (max-width: 1650px) {
+    .hero img{
+        display: none;
+    }
+}
